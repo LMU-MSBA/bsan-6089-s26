@@ -1,4 +1,4 @@
-# {{COURSE_CODE}} - Final Interview Study Guide
+# BSAN 6089 - Final Interview Study Guide
 
 ## Overview
 

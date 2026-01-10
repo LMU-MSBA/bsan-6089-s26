@@ -1,4 +1,4 @@
-# {{COURSE_CODE}} - Project Milestones
+# BSAN 6089 - Project Milestones
 
 ## Milestone Overview
 

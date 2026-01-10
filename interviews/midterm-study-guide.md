@@ -1,4 +1,4 @@
-# {{COURSE_CODE}} - Midterm Interview Study Guide
+# BSAN 6089 - Midterm Interview Study Guide
 
 ## Overview
 

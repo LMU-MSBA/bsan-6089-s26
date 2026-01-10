@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- TEMPLATE: Update title with your course code and name -->
-    <title>{{COURSE_CODE}} - {{COURSE_NAME}} | {{SEMESTER}}</title>
+    <title>BSAN 6089 - Capstone Project Preparation II | Spring 2026</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
         }
 
         .container {
-            max-width: 720px;
+            max-width: 960px;  /* was 720px */
             margin: 0 auto;
             background: var(--bg);
             min-height: 100vh;
@@ -479,13 +479,13 @@
         <header class="header">
             <div class="header-content">
                 <!-- TEMPLATE: Update with your course information -->
-                <h1 class="course-title">{{COURSE_CODE}}</h1>
-                <p class="course-subtitle">{{COURSE_NAME}}</p>
+                <h1 class="course-title">BSAN 6089</h1>
+                <p class="course-subtitle">Capstone Project Preparation II</p>
                 <div class="course-info-bar">
-                    <span class="info-item">{{SEMESTER}}</span>
-                    <span class="info-item">{{DAYS_TIMES}}</span>
-                    <span class="info-item">{{LOCATION}}</span>
-                    <span class="info-item">{{CREDIT_HOURS}} Credits</span>
+                    <span class="info-item">Spring 2026</span>
+                    <span class="info-item">Selected Fridays 9:00 am - 12:00 pm</span>
+                    <span class="info-item">Brickyard 212 & Zoom: <a href="https://lmula.zoom.us/my/lontok" style="color: inherit;">lmula.zoom.us/my/lontok</a></span>
+                    <span class="info-item">Credit/No Credit</span>
                 </div>
             </div>
         </header>
@@ -494,7 +494,7 @@
             <a href="#overview" class="nav-link">Overview</a>
             <a href="#instructor" class="nav-link">Instructor</a>
             <a href="#schedule" class="nav-link">Schedule</a>
-            <a href="#grading" class="nav-link">Grading</a>
+            <a href="#grading" class="nav-link">Evaluation</a>
             <a href="#tips" class="nav-link">Tips</a>
             <a href="#policies" class="nav-link">Policies</a>
         </nav>
@@ -505,44 +505,40 @@
                 <h2 class="section-title">Course Overview</h2>
                 <div class="card">
                     <h3 class="card-title">Course Description</h3>
-                    <p>{{COURSE_DESCRIPTION}}</p>
+                    <p>This class is a mandatory workshop series covering the research design process to facilitate the Summer Capstone Project's approach to the identified business problem. Throughout the workshops, students will have the opportunity to learn about and practice the various interactions between the project team members, stakeholders, and clients. One of the workshops will cover presentation skills. Teams will then start to collect data for their project and learn how to take into account ethical considerations when dealing with the data.</p>
                 </div>
 
                 <div class="card">
                     <h3 class="card-title">Prerequisites</h3>
-                    <p>{{PREREQUISITES}}</p>
+                    <p>M.S. Business Analytics majors only.</p>
                 </div>
 
                 <div class="card">
-                    <h3 class="card-title">CBA Core Learning Outcomes</h3>
+                    <h3 class="card-title">M.S. Business Analytics Core Learning Outcomes</h3>
                     <ul>
-                        <li>{{CBA_LEARNING_OUTCOME_1}}</li>
-                        <li>{{CBA_LEARNING_OUTCOME_2}}</li>
-                        <li>{{CBA_LEARNING_OUTCOME_3}}</li>
+                        <li>Students can identify appropriate analytic models and tools to analyze and solve a complex business problem</li>
+                        <li>Students are able to effectively express knowledge and ideas through oral communication</li>
                     </ul>
                 </div>
 
                 <div class="card">
                     <h3 class="card-title">Course Learning Outcomes</h3>
                     <ul>
-                        <li>{{COURSE_LEARNING_OUTCOME_1}}</li>
-                        <li>{{COURSE_LEARNING_OUTCOME_2}}</li>
-                        <li>{{COURSE_LEARNING_OUTCOME_3}}</li>
-                        <li>{{COURSE_LEARNING_OUTCOME_4}}</li>
+                        <li>Distinguish the differences between Agile and traditional (waterfall) project management methods</li>
+                        <li>Describe the roles, activities, and artifacts of an Agile Scrum framework</li>
+                        <li>Develop an awareness about oneself and others to effectively communicate with a team and client</li>
+                        <li>Know how to prepare and deliver a presentation with well-crafted visual aids</li>
                     </ul>
                 </div>
 
                 <div class="card">
                     <h3 class="card-title">Required Materials</h3>
-                    <ul>
-                        <li>{{TEXTBOOK_OR_MATERIALS}}</li>
-                        <li>{{SOFTWARE_OR_TOOLS}}</li>
-                    </ul>
+                    <p>There are no required textbooks. You will receive links to <a href="https://www.oreilly.com/">O'Reilly resources</a> and online material.</p>
                 </div>
 
                 <div class="card">
-                    <h3 class="card-title">Work Load Expectations</h3>
-                    <p>Per LMU's <a href="https://academics.lmu.edu/aprc/lmucredithourpolicy/">Credit Hour Policy</a>, one credit hour requires a minimum of 3 hours of work per week. For this 4-credit course, expect approximately 12 hours of total weekly effort. With 200 minutes of class time per week, plan for 8-9 hours of outside work.</p>
+                    <h3 class="card-title">Workshop Format</h3>
+                    <p>You will learn the workshop material "the hard way," by making mistakes and finding solutions through trial and error. It is important you follow along with the workshop exercises to learn by doing. By the end of the semester, you will have work you can refer back to when the need arises.</p>
                 </div>
             </section>
 
@@ -562,11 +558,11 @@
                         </div>
                         <div class="instructor-detail-item">
                             <strong>Office Hours:</strong>
-                            <span>{{OFFICE_HOURS}} | <a href="https://calendly.com/greg-lontok">Schedule via Calendly</a></span>
+                            <span>Tue, Thu 12:00 pm - 2:00 pm, Fri 10:00 am - 12:00 pm | <a href="https://calendly.com/greg-lontok">Schedule via Calendly</a></span>
                         </div>
                         <div class="instructor-detail-item">
                             <strong>LinkedIn:</strong>
-                            <span><a href="{{LINKEDIN_URL}}">{{LINKEDIN_URL}}</a></span>
+                            <span><a href="http://linkedin.com/in/lontok">http://linkedin.com/in/lontok</a></span>
                         </div>
                         <div class="instructor-detail-item">
                             <strong>Zoom:</strong>
@@ -578,123 +574,74 @@
 
             <!-- SCHEDULE -->
             <section id="schedule" class="section">
-                <h2 class="section-title">Course Schedule</h2>
+                <h2 class="section-title">Workshop Schedule</h2>
                 <table class="schedule-table">
                     <thead>
                         <tr>
-                            <th>Week</th>
+                            <th>#</th>
                             <th>Date</th>
                             <th>Topic</th>
-                            <th>Due</th>
+                            <th>Location</th>
+                            <th>Time</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <!-- TEMPLATE: Add your weekly schedule -->
                         <tr>
                             <td>1</td>
-                            <td>{{WEEK_1_DATE}}</td>
-                            <td>{{WEEK_1_TOPIC}}</td>
-                            <td>{{WEEK_1_DUE}}</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>{{WEEK_1_DATE_2}}</td>
-                            <td>{{WEEK_1_TOPIC_2}}</td>
-                            <td>{{WEEK_1_DUE_2}}</td>
+                            <td>Fri, Feb 6</td>
+                            <td>Presentation Skills</td>
+                            <td>Brickyard 212</td>
+                            <td>9:00 am - 12:00 pm</td>
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>{{WEEK_2_DATE}}</td>
-                            <td>{{WEEK_2_TOPIC}}</td>
-                            <td>{{WEEK_2_DUE}}</td>
+                            <td>Fri, Mar 13</td>
+                            <td>Project Management</td>
+                            <td><a href="https://lmula.zoom.us/my/lontok">Zoom</a></td>
+                            <td>9:00 am - 12:00 pm</td>
                         </tr>
                         <tr>
-                            <td>2</td>
-                            <td>{{WEEK_2_DATE_2}}</td>
-                            <td>{{WEEK_2_TOPIC_2}}</td>
-                            <td>{{WEEK_2_DUE_2}}</td>
+                            <td>3</td>
+                            <td>Fri, Apr 10</td>
+                            <td>Soft Skills with MSBA Alumni</td>
+                            <td><a href="https://lmula.zoom.us/my/lontok">Zoom</a></td>
+                            <td>9:00 am - 12:00 pm</td>
                         </tr>
-                        <!-- Add more rows as needed -->
+                        <tr>
+                            <td>4</td>
+                            <td>TBD</td>
+                            <td>Career and Professional Development</td>
+                            <td>Online</td>
+                            <td>Asynchronous</td>
+                        </tr>
                     </tbody>
                 </table>
+                <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">Last day to withdraw: Friday, April 10</p>
             </section>
 
             <!-- GRADING -->
             <section id="grading" class="section">
-                <h2 class="section-title">Grading</h2>
+                <h2 class="section-title">Evaluation</h2>
                 <div class="card">
-                    <h3 class="card-title">Grade Breakdown</h3>
-                    <!-- TEMPLATE: Update with your grading weights -->
-                    <div class="grading-item">
-                        <span>Lesson Exercises</span>
-                        <span>{{LESSON_EXERCISES_WEIGHT}}%</span>
-                    </div>
-                    <div class="grading-item">
-                        <span>Assignments</span>
-                        <span>{{ASSIGNMENTS_WEIGHT}}%</span>
-                    </div>
-                    <div class="grading-item">
-                        <span>Project</span>
-                        <span>{{PROJECT_WEIGHT}}%</span>
-                    </div>
-                    <div class="grading-item">
-                        <span>Midterm Interview</span>
-                        <span>{{MIDTERM_WEIGHT}}%</span>
-                    </div>
-                    <div class="grading-item">
-                        <span>Final Interview</span>
-                        <span>{{FINAL_WEIGHT}}%</span>
-                    </div>
-                    <div class="grading-item">
-                        <span>Total</span>
-                        <span>100%</span>
-                    </div>
+                    <h3 class="card-title">Credit/No Credit</h3>
+                    <p style="margin-bottom: 1rem;">This course is graded on a <strong>Credit/No Credit</strong> basis. To receive credit, you must:</p>
+                    <ul>
+                        <li>Complete and submit all workshop exercises</li>
+                        <li>Attend all three synchronous workshops (mandatory)</li>
+                    </ul>
                 </div>
 
                 <div class="card">
-                    <h3 class="card-title">Grading Scale</h3>
-                    <div class="grade-scale-grid">
-                        <div class="grade-box grade-a">
-                            <span class="grade-letter">A</span>
-                            <span class="grade-range">93-100</span>
-                        </div>
-                        <div class="grade-box grade-a">
-                            <span class="grade-letter">A-</span>
-                            <span class="grade-range">90-92</span>
-                        </div>
-                        <div class="grade-box grade-b">
-                            <span class="grade-letter">B+</span>
-                            <span class="grade-range">87-89</span>
-                        </div>
-                        <div class="grade-box grade-b">
-                            <span class="grade-letter">B</span>
-                            <span class="grade-range">83-86</span>
-                        </div>
-                        <div class="grade-box grade-b">
-                            <span class="grade-letter">B-</span>
-                            <span class="grade-range">80-82</span>
-                        </div>
-                        <div class="grade-box grade-c">
-                            <span class="grade-letter">C+</span>
-                            <span class="grade-range">77-79</span>
-                        </div>
-                        <div class="grade-box grade-c">
-                            <span class="grade-letter">C</span>
-                            <span class="grade-range">73-76</span>
-                        </div>
-                        <div class="grade-box grade-c">
-                            <span class="grade-letter">C-</span>
-                            <span class="grade-range">70-72</span>
-                        </div>
-                        <div class="grade-box grade-d">
-                            <span class="grade-letter">D</span>
-                            <span class="grade-range">60-69</span>
-                        </div>
-                        <div class="grade-box grade-f">
-                            <span class="grade-letter">F</span>
-                            <span class="grade-range">Below 60</span>
-                        </div>
-                    </div>
+                    <h3 class="card-title">Workshop Deliverables</h3>
+                    <p style="margin-bottom: 1rem;">For each workshop, you will complete and submit a set of assigned exercises. The deliverables are evaluated based on:</p>
+                    <p style="margin-bottom: 0.5rem;"><strong>Completion:</strong> Did you complete all required exercises?</p>
+                    <p style="margin-bottom: 0.5rem;"><strong>Effort:</strong> Did you demonstrate genuine engagement with the material?</p>
+                    <p><strong>Learning:</strong> Does your work show progress and understanding?</p>
+                </div>
+
+                <div class="card" style="border-left: 4px solid #0d9488; background: #f0fdfa;">
+                    <h3 class="card-title" style="color: #134e4a;">Submission Policy</h3>
+                    <p style="color: #134e4a;"><strong>On-Time Definition:</strong> If workshop deliverables are submitted less than 2 days late, they are considered on time.</p>
                 </div>
             </section>
 
@@ -712,7 +659,7 @@
                     </div>
                     <div class="tip-card">
                         <h4>Build a Professional Relationship</h4>
-                        <p>Treat this class like a career opportunity. Ask questions, <a href="{{LINKEDIN_URL}}">connect with me on LinkedIn</a>, and seek feedback. Faculty often recommend students for jobs, but only if they know and trust you.</p>
+                        <p>Treat this class like a career opportunity. Ask questions, <a href="http://linkedin.com/in/lontok">connect with me on LinkedIn</a>, and seek feedback. Faculty often recommend students for jobs, but only if they know and trust you.</p>
                     </div>
                     <div class="tip-card">
                         <h4>Practice Professionalism Daily</h4>
@@ -755,18 +702,6 @@
                 </div>
 
                 <div class="card">
-                    <h3 class="card-title">Attendance & Participation</h3>
-                    <p style="margin-bottom: 1rem;">If you feel ill, please stay home to keep others safe and recover. If an unexpected obligation arises that prevents you from attending class, please let me know before class or within 12 hours after the class start time.</p>
-                    <p style="margin-bottom: 1rem;">I get there are emergencies or things that come up. Do your best to tell me in advance (at least a day before, if possible). I'm most concerned about you communicating and keeping me in the loop.</p>
-                    <p><strong>Each undocumented absence is -2% of your total class grade.</strong></p>
-                </div>
-
-                <div class="card">
-                    <h3 class="card-title">Assignment Submission</h3>
-                    <p>All assignments must be submitted through the designated platform (Brightspace) by the specified deadline. Late submissions will be penalized 10% per day unless prior arrangements have been made with the instructor. Technical issues are not valid excuses for late submissions. Plan ahead and submit early. Extensions may be granted in cases of documented emergencies.</p>
-                </div>
-
-                <div class="card">
                     <h3 class="card-title">Academic Honesty</h3>
                     <p>Academic integrity is fundamental to the mission of Loyola Marymount University. All students are expected to adhere to the <a href="https://academics.lmu.edu/honesty/">LMU Academic Honesty Policy</a>. Violations include but are not limited to: plagiarism, cheating on exams, unauthorized collaboration, and fabrication of sources. Any violation will result in disciplinary action, which may include failure of the assignment, failure of the course, and/or referral to the Dean of Students.</p>
                 </div>
@@ -800,7 +735,7 @@
         </main>
 
         <footer>
-            <p>Loyola Marymount University | {{SEMESTER}}</p>
+            <p>Loyola Marymount University | Spring 2026</p>
             <p>&copy; Greg Lontok</p>
         </footer>
     </div>
